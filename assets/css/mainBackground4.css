@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Montserrat;
+    src: local('Montserrat'), url('../fonts/Montserrat-Medium.woff') format("woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: Montserrat;
+    src: local('Montserrat'), url('../fonts/Montserrat-SemiBold.woff') format("woff");
+    font-weight: 600;
+}
+@font-face {
+    font-family: Montserrat;
+    src: local('Montserrat'), url('../fonts/Montserrat-Regular.woff') format("woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Montserrat;
+    src: local('Montserrat'), url('../fonts/Montserrat-Bold.woff') format("woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Montserrat;
+    src: local('Montserrat'), url('../fonts/Montserrat-Black.woff') format("woff");
+    font-weight: 900;
+}
+body{
+    font-family: 'Montserrat';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1__Full{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.section1__ContUp{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.section1__ContDown{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+.section1__IconCont{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    margin-right: 20px;
+}
+.section1__IconCont:last-child{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    margin-right: 0px;
+}
+.section1__IconCont img{
+    margin-bottom: 20px;
+}
+.section1__IconCont p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.section1__Full h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.section1__Full h5{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.section1__ButtonCont input{
+    width: 299.92px;
+    height: 60px;
+    background-color: #A9A6A8;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: none;
+    font-weight: 400;
+    font-size: 24px;
+    margin-right: 20px;
+}
+.section1__ButtonCont input::placeholder{
+    color: white;
+    font-weight: 400;
+}
+.section1__button h3{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+.section1__button{
+    width: 276.15px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #A56492;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+}
+.section1__ButtonCont{
+    display: flex;
+}
+.section1__button:hover{
+    transition: 500ms;
+    filter: drop-shadow(0px 2px 22px #A56492);
+}
+#DELET{
+    visibility: hidden;
+}
+.section1__ContDown{
+    margin-top: 0px;
+}
